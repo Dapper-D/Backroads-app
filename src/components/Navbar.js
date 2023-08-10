@@ -15,9 +15,6 @@ const Navbar = () => {
         {/* <!-- left this comment on purpose --> */}
         <ul className="nav-links" id="nav-links">
           {pageLinks.map((link) => {
-            {
-              /* const {link} = props */
-            }
             return (
               <li key={link.id}>
                 <a href={link.href} className="nav-link">
